@@ -1,0 +1,39 @@
+table.tradetable {
+  border: 2px solid #000000;
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+}
+table.tradetable td, table.tradetable th {
+  border: 2px solid #000000;
+  padding: 5px 5px;
+}
+table.tradetable thead {
+    border-bottom: 1px solid #000000;
+}
+table.tradetable thead th {
+  font-weight: bold;
+}
+table.tradetable tfoot td {
+  font-size: 14px;
+}
+
+table.detailtable {
+  border-collapse: collapse;
+}
+table.detailtable td, table.detailtable th {
+  padding: 5px 5px;
+}
+table.detailtable tbody td {
+  font-size: 13px;
+}
+table.detailtable thead {
+    border-bottom: 3px solid #C0E0FF;
+}
+table.detailtable thead th {
+  font-size: 15px;
+  font-weight: normal;
+}
+table.detailtable tfoot td {
+  font-size: 14px;
+}
